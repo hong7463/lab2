@@ -5,6 +5,8 @@
     android:orientation="vertical"
     tools:context=".activities.BookDetailActivity">
 
+    <include layout="@layout/toolbar"/>
+
     <ImageView
         android:id="@+id/ivBookCover"
         android:layout_marginTop="8dp"
